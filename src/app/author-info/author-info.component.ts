@@ -7,7 +7,7 @@ import { SimpleauthorService } from '../service/simple-author-service';
   selector: 'app-author-info',
   templateUrl: './author-info.component.html',
   styleUrls: ['./author-info.component.css'],
-})
+}) 
 export class AuthorInfoComponent implements OnInit {
   @Input() public author: Author;
 
