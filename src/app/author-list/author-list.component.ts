@@ -25,7 +25,7 @@ export class AuthorListComponent implements OnInit {
   }
 
   onImageWidthInfoChanged(r: RangeInfo) {
-    // console.log(r);
+    //console.log(r);
   }
   ngOnDestroy() {
     this.sub.unsubscribe();
