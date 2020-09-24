@@ -50,7 +50,7 @@ export class AuthorCreateComponent implements OnInit {
     } else {
       this.authorService.addauthor(this.author);
       console.log('total authors ', this.authorService.getauthors());
-      this.router.navigateByUrl('/author/list');
+      this.router.navigateByUrl('/author/list'); 
     }
   }
 }
