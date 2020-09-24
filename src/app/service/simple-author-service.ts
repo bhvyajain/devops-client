@@ -27,6 +27,7 @@ export class SimpleauthorService implements AuthorService {
           console.log(output);
           const list = output;
           console.log(list.result);
+        console.log('test');
           this.authors = list.result;
           this.update.next([...this.authors]);
         });
